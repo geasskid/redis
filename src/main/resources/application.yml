@@ -1,0 +1,8 @@
+redis:
+  host: 127.0.0.1
+  port: 6379
+  pool:
+    max-total: 10000
+    min-idle: 1000
+    max-idle: 10000
+    max-wait-millis: 800
